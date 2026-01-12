@@ -1,19 +1,14 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25% 48.75%;
+    justify-content: center;
 
     height: 100vh;
-    overflow: hidden;
 }
 
 main {
-    overflow: auto;
-    padding: 4rem;
-
-    & .main-container {
-        max-width: 33rem;
-        margin-left: auto;
-    }
+    max-width: 22.5rem;
+    padding-block: 1.5rem;
+    padding-inline: 1.5rem;
 
     & .back {
         display: flex;
@@ -29,14 +24,19 @@ main {
 }
 
 aside {
-    background-color: var(--surface-color);
-    padding: 4rem;
+    background-color: var(--surface-secondary);
+    padding-block: 1.5rem;
+
+    & header {
+        display: grid;
+        justify-content: center;
+    }
 
     & .aside-container {
-        max-width: 31rem;
-
+        max-width: 22.5rem;
+        
         & > img {
-            margin-top: 2rem;
+            margin-top: 0.75rem;
         }
     }
 
