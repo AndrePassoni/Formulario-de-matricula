@@ -1,48 +1,70 @@
-# Enrollment Form | Estrelas do Amanhã
+<h1 align="center">
+  Enrollment Form | Estrelas do Amanhã
+</h1>
 
-![Project Preview](./assets/project-preview.png)
+<div align="center">
+  <img src="./assets/thumbnail.svg" alt="Project Cover" width="100%" />
+</div>
 
-## 📄 About
+<br />
 
-This project is a modern, responsive **Enrollment Form** designed for a fictional kindergarten school named "Estrelas do Amanhã".
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Responsive_Design-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white](https://img.shields.io/badge/Responsive_Design-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white)" alt="Responsive" />
+</div>
 
-The main goal of this application is to provide a user-friendly interface for parents to register their children, demonstrating advanced HTML5 and CSS3 skills, particularly in form styling and layout construction.
+<br />
+
+## 📄 About the Project
+
+This project is a sophisticated, **fully responsive Enrollment Form** designed for "Estrelas do Amanhã", a fictional kindergarten school.
+
+The application serves as a modern interface for parents to register their children. It goes beyond basic HTML forms by implementing custom styling for all inputs, ensuring a cohesive and delightful user experience across all devices—from mobile phones to desktop screens.
+
+This project was developed as a practical challenge within the **Rocketseat Fullstack** course to master advanced CSS techniques.
+
+## ✨ Key Features
+
+* **📱 Mobile-First Responsiveness:**
+    * Adapts layout dynamically using **CSS Grid** and **Flexbox**.
+    * Smart layout reordering (Mobile: Header first / Desktop: Side-by-side).
+    * Fluid typography and spacing.
+* **🎨 Custom UI Components:**
+    * Stylized **Radio Buttons** with icons for "Study Shift" and "Sports".
+    * Custom **Checkbox** implementation for terms agreement.
+    * A custom-designed **File Dropzone** for document uploads.
+* **🛡️ Robust Form Architecture:**
+    * Semantic usage of `<fieldset>` and `<legend>` for accessibility.
+    * Visual feedback for focus states, hover effects, and error validation (e.g., email field).
+* **⚡ Performance:**
+    * Built with pure CSS (no external frameworks).
+    * Modular CSS architecture for maintainability.
 
 ## 🚀 Technologies Used
 
-This project was built using pure web technologies without external frameworks, ensuring high performance and semantic structure:
-
-* **HTML5**: Semantic markup for accessibility and structure.
+* **HTML5**: Semantic structure.
 * **CSS3**:
-    * **CSS Variables**: For consistent theming (colors, fonts).
-    * **Flexbox**: For responsive layouts and alignment.
-    * **Modular CSS**: Styles organized into separate files (`inputs.css`, `buttons.css`, etc.) for better maintainability.
-* **Google Fonts**: Typography using the *Poppins* font family.
-
-## 🎨 Features
-
-* **Responsive Layout**: A two-column layout that adapts to smaller screens (Main form area + Promotional aside).
-* **Custom Form Controls**:
-    * Styled **Radio Buttons** with icons (Sports selection & Study shift).
-    * Custom **Checkbox** for terms and conditions.
-    * Custom **File Dropzone** for birth certificate upload.
-* **Fieldsets & Legends**: Organized sections for Child Info, Residential Address, Guardian Info, and Enrollment Options.
-* **Visual Feedback**: Styles for active, disabled, and error states (e.g., email validation).
+    * **CSS Variables (`var(--name)`)**: For consistent theming.
+    * **Flexbox & Grid**: For complex layouts.
+    * **Media Queries**: For responsiveness.
+* **Google Fonts**: Typography using *Poppins*.
 
 ## 📂 Project Structure
 
-The project is organized to keep styles and assets separated:
+The project follows a modular CSS organization to keep styles clean and scalable:
 
 ```text
 ├── assets/
-│   ├── icons/          # SVG icons for UI elements
-│   ├── Illustration.svg # Main sidebar illustration
-│   └── logo.svg        # School logo
+│   ├── icons/          # SVG icons (UI elements)
+│   ├── thumbnail.svg   # Project cover
+│   └── logo.svg        # School identity
 ├── styles/
-│   ├── fields/         # Specific styles for inputs, radios, checkboxes
-│   ├── global.css      # Global variables and resets
-│   ├── layout.css      # Main grid/flex structures
-│   └── index.css       # Main stylesheet importing others
+│   ├── fields/         # Components (buttons.css, inputs.css, radio.css, etc.)
+│   ├── global.css      # Reset and CSS Variables
+│   ├── layout.css      # Main responsive grid structure
+│   ├── forms.css       # Form specific spacing
+│   └── index.css       # Entry point imports
 └── index.html
 ```
 
@@ -50,16 +72,17 @@ The project is organized to keep styles and assets separated:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/AndrePassoni/formulario-de-matricula.git](https://github.com/AndrePassoni/formulario-de-matricula.git)
+    git clone https://github.com/AndrePassoni/formulario-de-matricula.git
     ```
+
 2.  **Open the project:**
     Navigate to the project folder and simply open the `index.html` file in your browser.
 
 ## 📬 Contact
 
+Developed with 🧡 by **André Passoni**.
+
 * **GitHub**: [AndrePassoni](https://github.com/AndrePassoni)
 * **LinkedIn**: [André Magalhães Passoni](https://www.linkedin.com/in/andre-magalhaes-passoni/)
 
 ---
-
-Developed with 🧡 by **André Passoni**
