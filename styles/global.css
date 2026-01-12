@@ -24,6 +24,8 @@
 }
 
 body {
+    overflow: hidden;
+
     font: var(--text);
     color: var(--text-secondary);
 }
@@ -53,3 +55,8 @@ img {
     display: none;
 }
 
+@media (width >= 80em) {
+    .desktop-only {
+        display: initial;
+    }
+}

@@ -49,3 +49,33 @@ aside {
         }
     }
 }
+
+@media (width >= 80em) {
+    #app {
+        grid-template-columns: 51.25% 48.75%;
+        overflow: hidden;
+    }
+
+    main {
+        max-width: 33rem;
+        overflow: auto;
+        padding: 4rem;
+
+        & .main-container {
+            max-width: 33rem;
+            margin-left: auto;
+        }
+    }
+
+    aside {
+        padding: 4rem;
+
+        & .aside-container {
+            max-width: 31rem;
+
+            & > img {
+                margin-top: 2rem;
+            }
+        }
+    }
+}

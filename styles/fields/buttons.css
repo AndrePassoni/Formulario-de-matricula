@@ -25,3 +25,13 @@ button {
         }
     }
 }
+
+@media (width >= 80em) {
+    button {
+        text-align: unset;
+
+        & .btn-secondary {
+            margin-left: auto;
+        }
+    }
+}

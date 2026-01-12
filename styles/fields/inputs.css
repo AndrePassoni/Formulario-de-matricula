@@ -88,3 +88,9 @@ input {
         display: none;
     }
 }
+
+@media (width >= 80em) {
+    .address .flex {
+        gap: 1.25rem;
+    }
+}
