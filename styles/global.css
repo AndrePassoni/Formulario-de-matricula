@@ -24,8 +24,6 @@
 }
 
 body {
-    overflow: hidden;
-
     font: var(--text);
     color: var(--text-secondary);
 }
@@ -41,6 +39,8 @@ img {
 
 .flex {
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .flex-1 {
@@ -58,5 +58,10 @@ img {
 @media (width >= 80em) {
     .desktop-only {
         display: initial;
+    }
+
+    .flex {
+        flex-direction: row;
+        gap: 1.25rem;
     }
 }

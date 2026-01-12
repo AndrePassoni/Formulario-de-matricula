@@ -30,4 +30,8 @@ fieldset + fieldset {
     form {
         margin-top: 3rem;
     }
+
+    .actions-wrapper {
+        display: flex;
+    }
 }

@@ -28,9 +28,7 @@ button {
 
 @media (width >= 80em) {
     button {
-        text-align: unset;
-
-        & .btn-secondary {
+        &.btn-secondary {
             margin-left: auto;
         }
     }

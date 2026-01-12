@@ -1,8 +1,6 @@
 #app {
     display: grid;
     justify-content: center;
-
-    height: 100vh;
 }
 
 main {
@@ -54,12 +52,14 @@ aside {
     #app {
         grid-template-columns: 51.25% 48.75%;
         overflow: hidden;
+        height: 100vh;
     }
 
     main {
-        max-width: 33rem;
+        max-width: 100%;
         overflow: auto;
         padding: 4rem;
+        order: 1;
 
         & .main-container {
             max-width: 33rem;
@@ -69,6 +69,7 @@ aside {
 
     aside {
         padding: 4rem;
+        order: 2;
 
         & .aside-container {
             max-width: 31rem;
